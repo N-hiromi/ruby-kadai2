@@ -8,7 +8,7 @@ if play == 1
     puts "-------------------------"
     puts "0(グー) 1(チョキ) 2(パー)"
     jnk = gets.chomp.to_i
-    com = rand(2)
+    com = rand(3)
     puts "あなた：#{jnk_array[jnk]}"
     puts "bot：#{jnk_array[com]}"
     if jnk != 0 && jnk != 1 && jnk != 2
@@ -20,7 +20,7 @@ if play == 1
       puts "あっちむいて"
       puts "0(上) 1(右) 2(下) 3(左)"
       jnk_atti = gets.chomp.to_i
-      com_atti = rand(3)
+      com_atti = rand(4)
       puts "ほい!"
       puts "あなた：#{atti_array[jnk_atti]}"
       puts "bot：#{atti_array[com_atti]}"
@@ -37,7 +37,7 @@ if play == 1
       puts "あっちむいて"
       puts "0(上) 1(右) 2(下) 3(左)"
       jnk_atti = gets.chomp.to_i
-      com_atti = rand(3)
+      com_atti = rand(4)
       puts "ほい!"
       puts "あなた：#{atti_array[jnk_atti]}"
       puts "bot：#{atti_array[com_atti]}"
